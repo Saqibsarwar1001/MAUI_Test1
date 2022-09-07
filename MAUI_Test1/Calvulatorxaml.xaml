@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Test1.Calvulatorxaml"
+             Title="Calvulatorxaml">
+    <StackLayout Orientation="Vertical" >
+        <Label 
+            Text="Welcome to Corvit Systems"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" FontSize="25" BackgroundColor="Purple" TextColor="White"  Margin="20"/>
+        
+
+        <Label Text="User Name"/>
+        <Entry x:Name="uName" Placeholder="Name"/>
+        <Label Text="Password"/>
+        <Entry x:Name="uPass" Placeholder="Password" IsPassword="True"/>
+        <Button Text="Submit" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+    
+</ContentPage>
